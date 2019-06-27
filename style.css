@@ -1,11 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
 html,
 body {
-  background-color: #a9d7d1;
+  background-color: #3bca0f;
   text-align: center;
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   min-width: 320px;
+  color: #fff;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 }
 
 #form-outer {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(12, 153, 24);
   margin: 0 auto;
   border-radius: 4px;
   width: 75%;
@@ -27,7 +28,7 @@ header {
 .labels {
   display: inline-block;
   text-align: right;
-  width: 40%;
+  width: 30%;
   padding: 5px;
   vertical-align: top;
   margin-top: 10px;
@@ -56,14 +57,15 @@ input[type="checkbox"] {
 }
 
 #submit {
-  background-color: #59ace0;
+  background-color: rgb(5, 63, 9);
   border-radius: 4px;
-  color: white;
+  color: #fff;
   font-size: 1em;
   height: 40px;
   width: 96px;
   margin: 10px;
   border: 0px solid;
+  cursor: pointer;
 }
 
 .dropdown {
